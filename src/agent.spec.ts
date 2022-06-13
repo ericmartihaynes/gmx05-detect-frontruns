@@ -293,7 +293,7 @@ describe("sandwich attack frontrun agent", () => {
     expect(findings).toStrictEqual([
       Finding.fromObject({
         name: "Sandwich Attack Frontrun",
-        description: `Transaction ${createAddress("0xe0")} suffered a sandwich attack`,
+        description: `User ${createAddress("0xe0")} suffered a sandwich attack`,
         alertId: "GMX-05",
         severity: FindingSeverity.Medium,
         type: FindingType.Suspicious,
@@ -353,7 +353,7 @@ describe("sandwich attack frontrun agent", () => {
     expect(findings).toStrictEqual([
       Finding.fromObject({
         name: "Sandwich Attack Frontrun",
-        description: `Transaction ${createAddress("0xe0")} suffered a sandwich attack`,
+        description: `User ${createAddress("0xe0")} suffered a sandwich attack`,
         alertId: "GMX-05",
         severity: FindingSeverity.Medium,
         type: FindingType.Suspicious,
@@ -413,7 +413,7 @@ describe("sandwich attack frontrun agent", () => {
     expect(findings).toStrictEqual([
       Finding.fromObject({
         name: "Sandwich Attack Frontrun",
-        description: `Transaction ${createAddress("0xe0")} suffered a sandwich attack`,
+        description: `User ${createAddress("0xe0")} suffered a sandwich attack`,
         alertId: "GMX-05",
         severity: FindingSeverity.Medium,
         type: FindingType.Suspicious,
