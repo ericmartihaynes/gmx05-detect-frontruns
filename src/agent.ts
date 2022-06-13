@@ -167,7 +167,7 @@ export const provideHandleTx =
           findings.push(
             Finding.fromObject({
               name: "Sandwich Attack Frontrun",
-              description: `Transaction ${victimAddress.toLowerCase()} suffered a sandwich attack`,
+              description: `User ${victimAddress.toLowerCase()} suffered a sandwich attack`,
               alertId: "GMX-05",
               severity: FindingSeverity.Medium,
               type: FindingType.Suspicious,
