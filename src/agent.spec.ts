@@ -295,6 +295,7 @@ describe("sandwich attack frontrun agent", () => {
         name: "Sandwich Attack Frontrun",
         description: `User ${createAddress("0xe0")} suffered a sandwich attack`,
         alertId: "GMX-05",
+        protocol: "GMX",
         severity: FindingSeverity.Medium,
         type: FindingType.Suspicious,
         metadata: {
@@ -355,6 +356,7 @@ describe("sandwich attack frontrun agent", () => {
         name: "Sandwich Attack Frontrun",
         description: `User ${createAddress("0xe0")} suffered a sandwich attack`,
         alertId: "GMX-05",
+        protocol: "GMX",
         severity: FindingSeverity.Medium,
         type: FindingType.Suspicious,
         metadata: {
@@ -415,6 +417,7 @@ describe("sandwich attack frontrun agent", () => {
         name: "Sandwich Attack Frontrun",
         description: `User ${createAddress("0xe0")} suffered a sandwich attack`,
         alertId: "GMX-05",
+        protocol: "GMX",
         severity: FindingSeverity.Medium,
         type: FindingType.Suspicious,
         metadata: {
