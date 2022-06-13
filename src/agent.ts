@@ -169,7 +169,7 @@ export const provideHandleTx =
               name: "Sandwich Attack Frontrun",
               description: `User ${victimAddress.toLowerCase()} suffered a sandwich attack`,
               alertId: "GMX-05",
-              protocol: "GMX"
+              protocol: "GMX",
               severity: FindingSeverity.Medium,
               type: FindingType.Suspicious,
               metadata: {
