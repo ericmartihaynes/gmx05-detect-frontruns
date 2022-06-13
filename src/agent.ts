@@ -12,19 +12,6 @@ import {
   getEthersProvider,
 } from "forta-agent";
 
-//DONE Make bot scan arbitrum instead of eth
-//DONE Detect transaction calls to gmx arbitrum with swap event
-//DONE Store last 20 transactions
-//DONE Check each transaction to see if address exists in map
-//DONE Implement rest of strategy
-//DONE Metadata and Finding information
-//DONE: Mock variables for tests
-//DONE: Mock provider for tests
-//DONE: Figure out why last test fails
-
-//TODO: Finish writing tests
-//TODO: Clean up
-
 export const GMX_ROUTER_ADDRESS = "0xabbc5f99639c9b6bcb58544ddf04efa6802f4064";
 export const SWAP_EVENT =
   "event Swap(address account, address tokenIn, address tokenOut, uint256 amountIn, uint256 amountOut)";
